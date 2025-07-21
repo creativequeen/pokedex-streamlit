@@ -179,5 +179,5 @@ pokemon = {
 }
 
 # Renderizando os cartões de Pokémon
-for nome, dados in pokemon.items():
-    render_pokemon(nome, dados['tipo'], dados['tipo'][2], dados['status'], dados['habilidades'])
+for nome, pokemon in pokemon.items():
+    render_pokemon(nome, pokemon['tipo'], pokemon['tipo'][2], pokemon['status'], pokemon['habilidades'])
