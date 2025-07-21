@@ -134,7 +134,7 @@ def render_pokemon(nome, tipo, imagem_url, status, habilidades):
     """, unsafe_allow_html=True)
 
 # Dados dos Pokémon
-pokemons = {
+pokemon = {
     'Pikachu': {
         "status": ['HP:300', 'Ataque:600', 'Defesa:500', 'Velocidade:300', 'Total:1.700'],
         'habilidades': ['Choque do Trovão', 'Cabeçada'],
@@ -179,5 +179,5 @@ pokemons = {
 }
 
 # Renderizando os cartões de Pokémon
-for pokemon in pokemons.values():
-    render_pokemon(pokemon['nome'], pokemon['tipo'], pokemon['tipo'][2], pokemon['status'], pokemon['habilidades'])
+for nome, dados in pokemon.items():
+    render_pokemon(nome, dados['tipo'], dados['tipo'][2], dados['status'], dados['habilidades'])
