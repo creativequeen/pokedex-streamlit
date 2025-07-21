@@ -1,4 +1,5 @@
-'Pikachu': {
+pokemon = {
+    'Pikachu': {
         "status": ['HP:300', 'Ataque:600', 'Defesa:500', 'Velocidade:300', 'Total:1.700'],
         'habilidades': ['Choque do Trovão', 'Cabeçada'],
         "tipo": ['#025', 'Elétrico', 'pokemons/pikachu.png', '#FCC719'],
@@ -38,4 +39,4 @@
         "status": ['HP:280', 'Ataque:300', 'Defesa:450', 'Velocidade:320', 'Total:1.350'],
         'habilidades': ['Metronomo', 'Charme'],
         "tipo": ['#175', 'Fada', 'pokemons/togepi.png', "#dd3863"],
-           }
+ } }
